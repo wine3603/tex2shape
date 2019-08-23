@@ -1,7 +1,8 @@
 from keras.models import Model
 from keras.layers import Input, Conv2D, UpSampling2D, Concatenate, Dropout, LeakyReLU, BatchNormalization
 
-from base_model import BaseModel
+from .base_model import BaseModel
+#import base_model.BaseModel as BaseModel
 
 
 class Tex2ShapeModel(BaseModel):

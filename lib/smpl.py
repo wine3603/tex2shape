@@ -1,6 +1,5 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
-
 import sys
 
 import chumpy as ch
@@ -11,7 +10,7 @@ from chumpy.ch import Ch
 from vendor.smpl.posemapper import posemap, Rodrigues
 from vendor.smpl.serialization import backwards_compatibility_replacements
 
-from ch_ext import sp_dot
+from  .ch_ext import sp_dot
 
 if sys.version_info[0] == 3:
     import _pickle as pkl
